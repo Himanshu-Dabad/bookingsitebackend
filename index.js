@@ -17,7 +17,9 @@ res.json({data:"hello world"});
         console.log(err);
     }
 })
-app.post('/sign_up',async(req , res)=>{
+
+// app.post('/sign_up',async(req , res)=>{
+app.post('/signin',async(req , res)=>{
     try{
         console.log(req.body);
         res.json({data:"hello post"});
